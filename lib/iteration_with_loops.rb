@@ -10,7 +10,8 @@ def find_even_values(src)
       if src[counter][inner_counter].even?
         p src[counter][inner_counter]
         
-      endinner_counter += 1
+      end
+      inner_counter += 1
     end
     counter += 1
 
