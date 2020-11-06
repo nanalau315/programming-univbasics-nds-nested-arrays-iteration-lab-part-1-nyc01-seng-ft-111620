@@ -9,8 +9,8 @@ def find_even_values(src)
     while inner_counter < src[counter].length do
       if src[counter][inner_counter].even?
         p src[counter][inner_counter]
-        inner_counter += 1
-      end
+        
+      endinner_counter += 1
     end
     counter += 1
 
